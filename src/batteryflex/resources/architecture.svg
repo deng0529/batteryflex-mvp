@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" role="img" aria-labelledby="title desc">
+  <title id="title">BatteryFlex three-layer system architecture</title>
+  <desc id="desc">Historical NESO event data enters BatteryFlex. The platform models residential demand and battery dispatch. A separate line connects residential assets to the electricity network.</desc>
+  <defs>
+    <marker id="data" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#087468"/></marker>
+    <marker id="control" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#875011"/></marker>
+    <marker id="power" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#264b77"/></marker>
+  </defs>
+  <rect width="960" height="650" rx="14" fill="#fff"/>
+  <g font-family="Arial, sans-serif" fill="#112943">
+    <rect x="16" y="16" width="928" height="108" rx="12" fill="#edf2f7"/>
+    <text x="36" y="45" font-size="20" font-weight="bold">Market &amp; system operators</text>
+    <text x="36" y="76" font-size="17" font-weight="bold">NESO</text>
+    <text x="36" y="101" font-size="15">Historical flexibility event requirements</text>
+    <text x="474" y="76" font-size="17" font-weight="bold">Distribution system operator</text>
+    <text x="474" y="101" font-size="15">Conceptual market participant</text>
+    <text x="770" y="76" font-size="17" font-weight="bold">Electricity network</text>
+    <text x="770" y="101" font-size="15">Import and export</text>
+
+    <rect x="16" y="180" width="820" height="254" rx="12" fill="#102943"/>
+    <text x="36" y="211" fill="#fff" font-size="21" font-weight="bold">BatteryFlex aggregator / virtual power plant</text>
+    <text x="36" y="234" fill="#c5e7e2" font-size="15">Implemented simulation and decision support</text>
+
+    <rect x="34" y="248" width="247" height="75" rx="8" fill="#f3f8fa"/>
+    <rect x="297" y="248" width="254" height="75" rx="8" fill="#f3f8fa"/>
+    <rect x="567" y="248" width="250" height="75" rx="8" fill="#f3f8fa"/>
+    <rect x="34" y="337" width="247" height="78" rx="8" fill="#f3f8fa"/>
+    <rect x="297" y="337" width="254" height="78" rx="8" fill="#f3f8fa"/>
+    <rect x="567" y="337" width="250" height="78" rx="8" fill="#f3f8fa"/>
+    <g font-size="15" font-weight="bold">
+      <text x="46" y="273">Flexibility event management</text>
+      <text x="309" y="273">Household demand forecasting</text>
+      <text x="579" y="273">Portfolio qualification</text>
+      <text x="46" y="362">Flexibility dispatch engine</text>
+      <text x="309" y="362">Performance evaluation</text>
+      <text x="579" y="362">Persistent result storage</text>
+    </g>
+    <g font-size="14">
+      <text x="46" y="299">Data management &amp; preprocessing</text>
+      <text x="309" y="294">Seasonal Naive · Ridge Regression</text>
+      <text x="309" y="312">LightGBM</text>
+      <text x="579" y="299">Asset limits and delivery feasibility</text>
+      <text x="46" y="384">Rule-Based Control · rolling MPC</text>
+      <text x="46" y="402">with MILP · standalone MILP</text>
+      <text x="309" y="384">Forecast plan and historical replay</text>
+      <text x="309" y="402">Delivery, economics and effort</text>
+      <text x="579" y="384">Turso · metadata and references</text>
+      <text x="579" y="402">R2 · models, forecasts and bundles</text>
+    </g>
+
+    <rect x="16" y="494" width="928" height="102" rx="12" fill="#edf2f7"/>
+    <text x="36" y="524" font-size="20" font-weight="bold">Distributed residential energy assets</text>
+    <text x="36" y="552" font-size="16">Each home · electricity demand, simulated battery storage and connection limits</text>
+    <text x="36" y="577" font-size="15">Future integration · battery management system, metering, telemetry and local safety controls</text>
+
+    <g fill="none" stroke-width="3">
+      <path d="M56 125V174" stroke="#087468" marker-end="url(#data)"/>
+      <path d="M468 129V174" stroke="#087468" stroke-dasharray="6 4" marker-start="url(#data)" marker-end="url(#data)"/>
+      <path d="M56 492V439" stroke="#087468" marker-end="url(#data)"/>
+      <path d="M468 435V487" stroke="#875011" stroke-dasharray="3 4" marker-end="url(#control)"/>
+      <path d="M884 130V486" stroke="#264b77" marker-start="url(#power)" marker-end="url(#power)"/>
+    </g>
+    <g font-size="14" font-weight="bold">
+      <text x="72" y="155" fill="#087468">Historical event data</text>
+      <text x="484" y="155" fill="#087468">Future market interface and delivery reporting</text>
+      <text x="72" y="468" fill="#087468">Observed demand and simulated asset states</text>
+      <text x="484" y="468" fill="#875011">Simulated asset dispatch setpoints</text>
+      <text x="902" y="215" transform="rotate(90 902 215)" fill="#264b77">Physical electricity flow</text>
+    </g>
+    <g font-size="14">
+      <path d="M35 623h35" stroke="#264b77" stroke-width="3"/><text x="79" y="628">Power</text>
+      <path d="M169 623h35" stroke="#087468" stroke-width="3"/><text x="213" y="628">Data and state</text>
+      <path d="M352 623h35" stroke="#875011" stroke-width="3" stroke-dasharray="3 4"/><text x="396" y="628">Simulated control</text>
+      <path d="M576 623h35" stroke="#087468" stroke-width="3" stroke-dasharray="6 4"/><text x="620" y="628">Conceptual live market data</text>
+    </g>
+  </g>
+</svg>

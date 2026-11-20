@@ -1,0 +1,11 @@
+{
+  "dispatch_priority": [
+    "LightGBM",
+    "Ridge Regression",
+    "Seasonal Naive"
+  ],
+  "ridge_alpha": 1.0,
+  "lightgbm_trees": 200,
+  "lightgbm_learning_rate": 0.05,
+  "lightgbm_leaves": 15
+}

@@ -1,0 +1,11 @@
+-e .
+streamlit==1.67.0
+pandas==3.1.1
+numpy==2.5.5
+scipy==1.18.1
+pyarrow==26.0.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+boto3==1.44.5
+python-dotenv==1.2.4
+altair==6.3.0

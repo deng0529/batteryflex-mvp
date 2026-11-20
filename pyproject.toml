@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batteryflex"
+version = "1.0.0"
+description = "BatteryFlex — Distributed Energy Flexibility Intelligence & Dispatch"
+requires-python = ">=3.12"
+dependencies = ["streamlit>=1.67,<2", "pandas>=2.2,<4", "numpy>=1.26,<3", "scipy>=1.11,<2", "pyarrow>=14,<27", "scikit-learn>=1.6,<2", "lightgbm>=4.6,<5", "boto3>=1.35,<2", "python-dotenv>=1.0,<2", "altair>=5,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = [".uv-cache"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.setuptools.package-data]
+batteryflex = ["resources/*.json", "resources/*.yaml", "resources/*.svg", "storage/migrations/*.sql"]

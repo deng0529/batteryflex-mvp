@@ -1,0 +1,7 @@
+# Saved forecast identity hashes these exact source bytes on every platform.
+src/batteryflex/event_engine.py -text
+src/batteryflex/event_policy.py -text
+src/batteryflex/forecast_contracts.py -text
+src/batteryflex/forecast_data.py -text
+src/batteryflex/forecast_persistence.py -text
+src/batteryflex/forecast_training.py -text

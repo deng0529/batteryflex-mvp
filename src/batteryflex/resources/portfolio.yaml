@@ -1,0 +1,42 @@
+{
+  "assets": [
+    {
+      "household_id": "MAC001391",
+      "initial_soc": 0.8,
+      "event_start_soc": 0.9
+    },
+    {
+      "household_id": "MAC003288",
+      "initial_soc": 0.65,
+      "event_start_soc": 0.9
+    },
+    {
+      "household_id": "MAC000143",
+      "initial_soc": 0.9,
+      "event_start_soc": 0.95
+    },
+    {
+      "household_id": "MAC001534",
+      "initial_soc": 0.55,
+      "event_start_soc": 0.85
+    },
+    {
+      "household_id": "MAC001395",
+      "initial_soc": 0.75,
+      "event_start_soc": 0.85
+    }
+  ],
+  "common": {
+    "capacity_kwh": 10.0,
+    "charge_limit_kw": 5.0,
+    "discharge_limit_kw": 5.0,
+    "min_soc": 0.2,
+    "max_soc": 1.0,
+    "charge_efficiency": 0.9486832980505138,
+    "discharge_efficiency": 0.9486832980505138,
+    "export_enabled": true,
+    "export_limit_kw": null,
+    "participating": true,
+    "interval_hours": 0.5
+  }
+}

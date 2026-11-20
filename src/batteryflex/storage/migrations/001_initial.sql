@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS schema_migrations(version INTEGER PRIMARY KEY, sha256 TEXT NOT NULL);
+CREATE TABLE households(id TEXT PRIMARY KEY, metadata_json TEXT NOT NULL);
+CREATE TABLE household_selections(id TEXT PRIMARY KEY, created_at TEXT NOT NULL);
+CREATE TABLE selection_members(selection_id TEXT NOT NULL REFERENCES household_selections(id), household_id TEXT NOT NULL REFERENCES households(id), position INTEGER NOT NULL, PRIMARY KEY(selection_id, household_id), UNIQUE(selection_id, position));
+CREATE TABLE objects(sha256 TEXT PRIMARY KEY CHECK(length(sha256)=64), object_key TEXT NOT NULL UNIQUE, byte_size INTEGER NOT NULL CHECK(byte_size>=0), kind TEXT NOT NULL);
+CREATE TABLE datasets(id TEXT PRIMARY KEY REFERENCES objects(sha256), metadata_json TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE TABLE dataset_assets(dataset_id TEXT NOT NULL REFERENCES datasets(id), name TEXT NOT NULL, object_id TEXT NOT NULL REFERENCES objects(sha256), PRIMARY KEY(dataset_id,name));
+CREATE TABLE neso_events(id TEXT PRIMARY KEY, source_hash TEXT NOT NULL, source_json TEXT NOT NULL);
+CREATE TABLE replay_mappings(event_id TEXT PRIMARY KEY REFERENCES neso_events(id), original_date TEXT NOT NULL, household_date TEXT NOT NULL, mapping_version TEXT NOT NULL);
+CREATE TABLE portfolios(id TEXT PRIMARY KEY, config_json TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE TABLE batteries(portfolio_id TEXT NOT NULL REFERENCES portfolios(id), household_id TEXT NOT NULL REFERENCES households(id), config_json TEXT NOT NULL, PRIMARY KEY(portfolio_id,household_id));
+CREATE TABLE feature_schemas(id TEXT PRIMARY KEY, fields_json TEXT NOT NULL);
+CREATE TABLE forecast_configs(id TEXT PRIMARY KEY, dataset_id TEXT NOT NULL REFERENCES datasets(id), selection_id TEXT NOT NULL REFERENCES household_selections(id), feature_schema TEXT NOT NULL REFERENCES feature_schemas(id), config_json TEXT NOT NULL);
+CREATE TABLE forecast_models(fingerprint TEXT PRIMARY KEY REFERENCES forecast_configs(id), algorithm TEXT NOT NULL, version TEXT NOT NULL, artifact_id TEXT NOT NULL REFERENCES objects(sha256), predictions_id TEXT REFERENCES objects(sha256), metadata_json TEXT NOT NULL, created_at TEXT NOT NULL, UNIQUE(algorithm,version));
+CREATE TABLE forecast_metrics(model_id TEXT NOT NULL REFERENCES forecast_models(fingerprint), partition TEXT NOT NULL CHECK(partition IN ('validation','testing')), household_id TEXT NOT NULL, mae_kw REAL NOT NULL CHECK(mae_kw>=0), rmse_kw REAL NOT NULL CHECK(rmse_kw>=mae_kw), observations INTEGER NOT NULL CHECK(observations>0), PRIMARY KEY(model_id,partition,household_id));
+CREATE TABLE model_leases(fingerprint TEXT PRIMARY KEY, owner TEXT NOT NULL, expires_at INTEGER NOT NULL);
+CREATE TABLE active_selections(name TEXT PRIMARY KEY, value_json TEXT NOT NULL);
+CREATE TABLE system_settings(name TEXT PRIMARY KEY, value_json TEXT NOT NULL);
+CREATE TABLE simulation_runs(id TEXT PRIMARY KEY, event_id TEXT NOT NULL REFERENCES neso_events(id), portfolio_id TEXT NOT NULL REFERENCES portfolios(id), model_id TEXT NOT NULL REFERENCES forecast_models(fingerprint), strategy TEXT NOT NULL, metadata_json TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE TABLE simulation_metrics(run_id TEXT NOT NULL REFERENCES simulation_runs(id), name TEXT NOT NULL, value REAL NOT NULL, unit TEXT NOT NULL, PRIMARY KEY(run_id,name));
+CREATE TABLE simulation_artifacts(run_id TEXT NOT NULL REFERENCES simulation_runs(id), kind TEXT NOT NULL, object_id TEXT NOT NULL REFERENCES objects(sha256), PRIMARY KEY(run_id,kind));
+CREATE INDEX forecast_models_lookup ON forecast_models(algorithm,created_at);
+CREATE INDEX datasets_created ON datasets(created_at);
+CREATE INDEX simulation_experiment ON simulation_runs(event_id,portfolio_id,model_id);
+
+CREATE TABLE evaluation_archives(id TEXT PRIMARY KEY, dataset_id TEXT NOT NULL REFERENCES datasets(id), predictions_id TEXT NOT NULL REFERENCES objects(sha256), metrics_id TEXT NOT NULL REFERENCES objects(sha256), counts_id TEXT NOT NULL REFERENCES objects(sha256), metadata_json TEXT NOT NULL);

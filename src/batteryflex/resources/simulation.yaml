@@ -1,0 +1,21 @@
+{
+  "experiment": "A",
+  "mode": "EVENT_ONLY",
+  "target_kw": 10.0,
+  "import_price": 0.25,
+  "export_price": 0.05,
+  "degradation_price": 0.02,
+  "terminal_price": 0.1,
+  "optional_import_cap_kw": 10.0,
+  "reserve_soc": 0.2,
+  "target_soc": 0.5,
+  "prediction_steps": 12,
+  "time_limit": 10.0,
+  "gap": 0.001,
+  "weights": [
+    1.0,
+    20.0,
+    1.0,
+    1.0
+  ]
+}

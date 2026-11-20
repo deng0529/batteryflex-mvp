@@ -1,0 +1,764 @@
+{
+  "manifest_version": 1,
+  "review": "Task 02D",
+  "validated_on": "2026-11-16",
+  "validation_report": "docs/NESO_FINAL_VALIDATION.md",
+  "attribution": "Supported by National Energy SO Open Data",
+  "scope": "Reviewed selection snapshot only; resource totals describe original full acquisition",
+  "resources": [
+    {
+      "source_name": "DFS Service Requirement (Archive 2025/2026)",
+      "resource_id": "f5605e2b-b677-424c-8df7-d0ce4ee03cef",
+      "source_url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=f5605e2b-b677-424c-8df7-d0ce4ee03cef&limit=1000&offset=0&sort=_id+asc",
+      "retrieved_at": "2026-11-16T16:59:24.836470+00:00",
+      "records": [
+        {
+          "_id": 125,
+          "Delivery Date": "2026-01-11",
+          "From": "17:00",
+          "To": "17:30",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,ORANGE POWER LTD,Attune Power LTD,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,Electryone AI,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED,CARBONLACES LIMITED,VEST Energy Limited,PowerOnTechnologiesTradingAsJoulen,Fuse Energy Supply Limited,Shuffle Energy Limited,Optimo Energy Limited,U ENERGY GROUP LIMITED"
+        },
+        {
+          "_id": 126,
+          "Delivery Date": "2026-01-11",
+          "From": "17:30",
+          "To": "18:00",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,ORANGE POWER LTD,Attune Power LTD,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,Electryone AI,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED,CARBONLACES LIMITED,VEST Energy Limited,PowerOnTechnologiesTradingAsJoulen,Fuse Energy Supply Limited,Shuffle Energy Limited,Optimo Energy Limited,U ENERGY GROUP LIMITED"
+        },
+        {
+          "_id": 127,
+          "Delivery Date": "2026-01-11",
+          "From": "18:00",
+          "To": "18:30",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,ORANGE POWER LTD,Attune Power LTD,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,Electryone AI,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED,CARBONLACES LIMITED,VEST Energy Limited,PowerOnTechnologiesTradingAsJoulen,Fuse Energy Supply Limited,Shuffle Energy Limited,Optimo Energy Limited,U ENERGY GROUP LIMITED"
+        },
+        {
+          "_id": 128,
+          "Delivery Date": "2026-01-11",
+          "From": "18:30",
+          "To": "19:00",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,ORANGE POWER LTD,Attune Power LTD,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,Electryone AI,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED,CARBONLACES LIMITED,VEST Energy Limited,PowerOnTechnologiesTradingAsJoulen,Fuse Energy Supply Limited,Shuffle Energy Limited,Optimo Energy Limited,U ENERGY GROUP LIMITED"
+        },
+        {
+          "_id": 237,
+          "Delivery Date": "2025-11-06",
+          "From": "17:00",
+          "To": "17:30",
+          "Service Requirement MW": 200,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED"
+        },
+        {
+          "_id": 238,
+          "Delivery Date": "2025-11-06",
+          "From": "17:30",
+          "To": "18:00",
+          "Service Requirement MW": 200,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED"
+        },
+        {
+          "_id": 847,
+          "Delivery Date": "2025-03-18",
+          "From": "18:00",
+          "To": "18:30",
+          "Service Requirement MW": 300,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED"
+        },
+        {
+          "_id": 848,
+          "Delivery Date": "2025-03-18",
+          "From": "18:30",
+          "To": "19:00",
+          "Service Requirement MW": 300,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED"
+        },
+        {
+          "_id": 999,
+          "Delivery Date": "2025-02-02",
+          "From": "16:00",
+          "To": "16:30",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED, AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED"
+        },
+        {
+          "_id": 1000,
+          "Delivery Date": "2025-02-02",
+          "From": "16:30",
+          "To": "17:00",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED, AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED"
+        },
+        {
+          "_id": 1001,
+          "Delivery Date": "2025-02-02",
+          "From": "17:00",
+          "To": "17:30",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED, AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED"
+        },
+        {
+          "_id": 1002,
+          "Delivery Date": "2025-02-02",
+          "From": "17:30",
+          "To": "18:00",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED, AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED"
+        },
+        {
+          "_id": 1003,
+          "Delivery Date": "2025-02-02",
+          "From": "18:00",
+          "To": "18:30",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED, AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED"
+        },
+        {
+          "_id": 1004,
+          "Delivery Date": "2025-02-02",
+          "From": "18:30",
+          "To": "19:00",
+          "Service Requirement MW": 500,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Dispatch Type": "All Providers",
+          "Participant Bids Eligible": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED, AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED"
+        }
+      ],
+      "fields": [
+        {
+          "type": "int",
+          "id": "_id"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Date of DFS Event.",
+            "title": "Delivery Date",
+            "type": "date",
+            "example": "01/01/2024",
+            "unit": "N/A"
+          },
+          "type": "date",
+          "id": "Delivery Date"
+        },
+        {
+          "info": {
+            "comment": "GMT",
+            "description": "DFS service window start time.",
+            "title": "From",
+            "type": "string",
+            "example": "HH:MM",
+            "unit": "17:00"
+          },
+          "type": "text",
+          "id": "From"
+        },
+        {
+          "info": {
+            "comment": "GMT",
+            "description": "DFS service window end time. ",
+            "title": "To",
+            "type": "string",
+            "example": "18:00",
+            "unit": "HH:MM"
+          },
+          "type": "text",
+          "id": "To"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Service Requirement: MW volume of DFS required for corresponding service window. ",
+            "title": "Service Requirement MW",
+            "type": "integer",
+            "example": "100",
+            "unit": "MW"
+          },
+          "type": "int4",
+          "id": "Service Requirement MW"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Indicating if Service Requirements corresponds to a Live or Test DFS Event. ",
+            "title": "Service Requirement Type",
+            "type": "string",
+            "example": "Live",
+            "unit": "N/A"
+          },
+          "type": "text",
+          "id": "Service Requirement Type"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "The ESO commits to accepting all tendered DFS Bids for the corresponding service window price at or below the Guaranteed Acceptance Price. ",
+            "title": "Guaranteed Acceptance Price GBP per MWh",
+            "type": "number",
+            "example": "3000",
+            "unit": "£/MWh"
+          },
+          "type": "numeric",
+          "id": "Guaranteed Acceptance Price GBP per MWh"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Indicating if all Registered DFS Participants are eligible to tender bids for corresponding service window, or only a subgroup of Registered DFS Participants are eligible to tender bids for corresponding service window. ",
+            "title": "Dispatch Type",
+            "type": "string",
+            "example": "All Participants",
+            "unit": "N/A"
+          },
+          "type": "text",
+          "id": "Dispatch Type"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "List of Registered DFS Participants eligible to tender bids for corresponding service window.",
+            "title": "Participant Bids Eligible",
+            "type": "string",
+            "example": "A, B, C, D, E",
+            "unit": "N/A"
+          },
+          "type": "text",
+          "id": "Participant Bids Eligible"
+        }
+      ],
+      "total": 1132,
+      "request_urls": [
+        "https://api.neso.energy/api/3/action/datastore_search?resource_id=f5605e2b-b677-424c-8df7-d0ce4ee03cef&limit=1000&offset=0&sort=_id+asc",
+        "https://api.neso.energy/api/3/action/datastore_search?resource_id=f5605e2b-b677-424c-8df7-d0ce4ee03cef&limit=1000&offset=1000&sort=_id+asc"
+      ],
+      "complete": false,
+      "completed_at": "2026-11-16T16:59:25.012684+00:00"
+    },
+    {
+      "source_name": "DFS Service Requirements (2023/2024)",
+      "resource_id": "7914dd99-fe1c-41ba-9989-5784531c58bb",
+      "source_url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=7914dd99-fe1c-41ba-9989-5784531c58bb&limit=1000&offset=0&sort=_id+asc",
+      "retrieved_at": "2026-11-16T16:59:25.163530+00:00",
+      "records": [
+        {
+          "_id": 24,
+          "Delivery Date": "2023-12-01",
+          "From": "16:30:00",
+          "To": "17:00:00",
+          "DFS Required MW": 550,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Despatch Type": "All Providers",
+          "Participant Bids Eligible": "OCTOPUS ENERGY LIMITED,FLEXITRICITY LIMITED,ORANGE POWER LTD,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,GRIDIMP LTD,E.ON NEXT ENERGY LIMITED,EQUIWATT LIMITED,ZENOBE ENERGY LIMITED,PERSE TECHNOLOGY LIMITED,CUB (UK) LTD,CONRAD ENERGY (TRADING) LIMITED,GRIDBEYOND LIMITED,SOLO ENERGY LIMITED,BRITISH GAS TRADING LIMITED,ENGIE POWER LIMITED,EDF ENERGY CUSTOMERS LIMITED,OVO ELECTRICITY LTD,HILDEBRAND TECHNOLOGY LIMITED,UTILITA ENERGY LIMITED,CHAMELEON TECHNOLOGY (UK) LIMITED,RDT Support Team,INFINIS LIMITED,AXLE ENERGY LIMITED,P3P ENERGY SUPPLY LIMITED,SSE DIGITAL SERVICES LIMITED,CARBONLACES LIMITED,ENERGY DELIVERED LTD"
+        },
+        {
+          "_id": 25,
+          "Delivery Date": "2023-12-01",
+          "From": "17:00:00",
+          "To": "17:30:00",
+          "DFS Required MW": 550,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Despatch Type": "All Providers",
+          "Participant Bids Eligible": "OCTOPUS ENERGY LIMITED,FLEXITRICITY LIMITED,ORANGE POWER LTD,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,GRIDIMP LTD,E.ON NEXT ENERGY LIMITED,EQUIWATT LIMITED,ZENOBE ENERGY LIMITED,PERSE TECHNOLOGY LIMITED,CUB (UK) LTD,CONRAD ENERGY (TRADING) LIMITED,GRIDBEYOND LIMITED,SOLO ENERGY LIMITED,BRITISH GAS TRADING LIMITED,ENGIE POWER LIMITED,EDF ENERGY CUSTOMERS LIMITED,OVO ELECTRICITY LTD,HILDEBRAND TECHNOLOGY LIMITED,UTILITA ENERGY LIMITED,CHAMELEON TECHNOLOGY (UK) LIMITED,RDT Support Team,INFINIS LIMITED,AXLE ENERGY LIMITED,P3P ENERGY SUPPLY LIMITED,SSE DIGITAL SERVICES LIMITED,CARBONLACES LIMITED,ENERGY DELIVERED LTD"
+        },
+        {
+          "_id": 26,
+          "Delivery Date": "2023-12-01",
+          "From": "17:30:00",
+          "To": "18:00:00",
+          "DFS Required MW": 550,
+          "Service Requirement Type": "Live",
+          "Guaranteed Acceptance Price GBP per MWh": 0,
+          "Despatch Type": "All Providers",
+          "Participant Bids Eligible": "OCTOPUS ENERGY LIMITED,FLEXITRICITY LIMITED,ORANGE POWER LTD,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,GRIDIMP LTD,E.ON NEXT ENERGY LIMITED,EQUIWATT LIMITED,ZENOBE ENERGY LIMITED,PERSE TECHNOLOGY LIMITED,CUB (UK) LTD,CONRAD ENERGY (TRADING) LIMITED,GRIDBEYOND LIMITED,SOLO ENERGY LIMITED,BRITISH GAS TRADING LIMITED,ENGIE POWER LIMITED,EDF ENERGY CUSTOMERS LIMITED,OVO ELECTRICITY LTD,HILDEBRAND TECHNOLOGY LIMITED,UTILITA ENERGY LIMITED,CHAMELEON TECHNOLOGY (UK) LIMITED,RDT Support Team,INFINIS LIMITED,AXLE ENERGY LIMITED,P3P ENERGY SUPPLY LIMITED,SSE DIGITAL SERVICES LIMITED,CARBONLACES LIMITED,ENERGY DELIVERED LTD"
+        }
+      ],
+      "fields": [
+        {
+          "type": "int",
+          "id": "_id"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Date of DFS Event.",
+            "title": "Delivery Date",
+            "type": "date",
+            "example": "2023-12-31",
+            "unit": "N/A"
+          },
+          "type": "date",
+          "id": "Delivery Date"
+        },
+        {
+          "info": {
+            "comment": "GMT",
+            "description": "DFS service window start time.",
+            "title": "From",
+            "type": "time",
+            "example": "HH:MM",
+            "unit": "17:00"
+          },
+          "type": "time",
+          "id": "From"
+        },
+        {
+          "info": {
+            "comment": "GMT",
+            "description": "DFS service window end time. ",
+            "title": "To",
+            "type": "time",
+            "example": "18:00",
+            "unit": "HH:MM"
+          },
+          "type": "time",
+          "id": "To"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Service Requirement: MW volume of DFS required for corresponding service window. ",
+            "title": "DFS Required MW",
+            "type": "integer",
+            "example": "100",
+            "unit": "MW"
+          },
+          "type": "int4",
+          "id": "DFS Required MW"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Indicating if Service Requirements corresponds to a Live or Test DFS Event. ",
+            "title": "Service Requirement Type",
+            "type": "string",
+            "example": "Live",
+            "unit": "N/A"
+          },
+          "type": "text",
+          "id": "Service Requirement Type"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "The ESO commits to accepting all tendered DFS Bids for the corresponding service window price at or below the Guaranteed Acceptance Price. ",
+            "title": "Guaranteed Acceptance Price GBP per MWh",
+            "type": "number",
+            "example": "3000",
+            "unit": "£/MWh"
+          },
+          "type": "numeric",
+          "id": "Guaranteed Acceptance Price GBP per MWh"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "Indicating if all Registered DFS Participants are eligible to tender bids for corresponding service window, or only a subgroup of Registered DFS Participants are eligible to tender bids for corresponding service window. ",
+            "title": "Despatch Type",
+            "type": "string",
+            "example": "All Participants",
+            "unit": "N/A"
+          },
+          "type": "text",
+          "id": "Despatch Type"
+        },
+        {
+          "info": {
+            "comment": "",
+            "description": "List of Registered DFS Participants eligible to tender bids for corresponding service window.",
+            "title": "Participant Bids Eligible",
+            "type": "string",
+            "example": "A, B, C, D, E",
+            "unit": "N/A"
+          },
+          "type": "text",
+          "id": "Participant Bids Eligible"
+        }
+      ],
+      "total": 32,
+      "request_urls": [
+        "https://api.neso.energy/api/3/action/datastore_search?resource_id=7914dd99-fe1c-41ba-9989-5784531c58bb&limit=1000&offset=0&sort=_id+asc"
+      ],
+      "complete": false,
+      "completed_at": "2026-11-16T16:59:25.163530+00:00"
+    }
+  ],
+  "events": [
+    {
+      "event_id": null,
+      "delivery_date": "2025-03-18",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "duration_minutes": 60.0,
+      "time_basis": "GMT (source metadata)",
+      "required_mw_by_window": "300.0",
+      "direction": null,
+      "requirement_type": "Live",
+      "event_tag": null,
+      "dispatch_type": "All Providers",
+      "eligible_participants": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED",
+      "zonal_cap": null,
+      "source_name": "DFS Service Requirement (Archive 2025/2026)",
+      "resource_id": "f5605e2b-b677-424c-8df7-d0ce4ee03cef",
+      "source_record_ids": [
+        847,
+        848
+      ],
+      "window_count": 2,
+      "contiguous_30min": true,
+      "candidate_status": "Provisional candidate",
+      "screening_reason": "Requires review: missing ID/direction, non-Live, invalid/gapped windows, mixed time basis or non-positive requirement.",
+      "demand_reduction": true,
+      "direction_evidence": "Documented pre-9-Apr-2026 demand-reduction-only DFS regime; raw direction absent",
+      "direction_evidence_url": "https://www.neso.energy/industry-information/balancing-services/demand-flexibility-service-dfs",
+      "identity_basis": "Source/date requirement group; original event ID absent (not a confirmed event key)",
+      "start_uk": "2025-03-18T18:00:00+00:00",
+      "end_uk": "2025-03-18T19:00:00+00:00",
+      "start_utc": "2025-03-18T18:00:00+00:00",
+      "end_utc": "2025-03-18T19:00:00+00:00",
+      "interval_error": null,
+      "validation_status": "PASS",
+      "validation_criteria": {
+        "live": "PASS",
+        "direction": "PASS",
+        "historical_date": "PASS",
+        "original_records": "PASS",
+        "source_resource": "PASS",
+        "complete_retrieval": "PASS",
+        "requirement_mw": "PASS",
+        "valid_times": "PASS",
+        "continuous_window": "PASS"
+      },
+      "validation_reasons": {
+        "live": "Every original Service Requirement Type must explicitly equal Live.",
+        "direction": "DFS Service Terms v3, clause 5.2: demand below operational baseline; raw direction absent.",
+        "historical_date": "One valid past original delivery date.",
+        "original_records": "Resource-scoped CKAN IDs trace every original interval record.",
+        "source_resource": "Known official requirement resource and exact public API request URLs.",
+        "complete_retrieval": "Complete source prevents accepting a truncated event.",
+        "requirement_mw": "Every original source requirement is finite, positive MW.",
+        "valid_times": "Source clocks resolve to positive aware instants with GMT/BST checks.",
+        "continuous_window": "Consecutive windows without gaps, overlap or duplicates."
+      },
+      "direction_definition_url": "https://www.neso.energy/document/348106/download",
+      "verified_direction_meaning": "Demand reduction",
+      "internal_scenario_id": "BF-SCENARIO-20250318-d83173d115",
+      "internal_id_notice": "Internal BatteryFlex scenario ID; not an official NESO Event ID",
+      "winter_season": "2024/25",
+      "source_records_sha256": "9678c37bc74fe6fa13fa5ec0b43a3eebf192a64664c2103e89081d8b51c00251",
+      "verified_interval_count": 2,
+      "selection_reason": "Whole 1h Live demand-reduction requirement; winter month/year/season and evening diversity, subject to source-ID limitations."
+    },
+    {
+      "event_id": null,
+      "delivery_date": "2025-11-06",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "duration_minutes": 60.0,
+      "time_basis": "GMT (source metadata)",
+      "required_mw_by_window": "200.0",
+      "direction": null,
+      "requirement_type": "Live",
+      "event_tag": null,
+      "dispatch_type": "All Providers",
+      "eligible_participants": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED",
+      "zonal_cap": null,
+      "source_name": "DFS Service Requirement (Archive 2025/2026)",
+      "resource_id": "f5605e2b-b677-424c-8df7-d0ce4ee03cef",
+      "source_record_ids": [
+        237,
+        238
+      ],
+      "window_count": 2,
+      "contiguous_30min": true,
+      "candidate_status": "Provisional candidate",
+      "screening_reason": "Requires review: missing ID/direction, non-Live, invalid/gapped windows, mixed time basis or non-positive requirement.",
+      "demand_reduction": true,
+      "direction_evidence": "Documented pre-9-Apr-2026 demand-reduction-only DFS regime; raw direction absent",
+      "direction_evidence_url": "https://www.neso.energy/industry-information/balancing-services/demand-flexibility-service-dfs",
+      "identity_basis": "Source/date requirement group; original event ID absent (not a confirmed event key)",
+      "start_uk": "2025-11-06T17:00:00+00:00",
+      "end_uk": "2025-11-06T18:00:00+00:00",
+      "start_utc": "2025-11-06T17:00:00+00:00",
+      "end_utc": "2025-11-06T18:00:00+00:00",
+      "interval_error": null,
+      "validation_status": "PASS",
+      "validation_criteria": {
+        "live": "PASS",
+        "direction": "PASS",
+        "historical_date": "PASS",
+        "original_records": "PASS",
+        "source_resource": "PASS",
+        "complete_retrieval": "PASS",
+        "requirement_mw": "PASS",
+        "valid_times": "PASS",
+        "continuous_window": "PASS"
+      },
+      "validation_reasons": {
+        "live": "Every original Service Requirement Type must explicitly equal Live.",
+        "direction": "DFS Service Terms v3, clause 5.2: demand below operational baseline; raw direction absent.",
+        "historical_date": "One valid past original delivery date.",
+        "original_records": "Resource-scoped CKAN IDs trace every original interval record.",
+        "source_resource": "Known official requirement resource and exact public API request URLs.",
+        "complete_retrieval": "Complete source prevents accepting a truncated event.",
+        "requirement_mw": "Every original source requirement is finite, positive MW.",
+        "valid_times": "Source clocks resolve to positive aware instants with GMT/BST checks.",
+        "continuous_window": "Consecutive windows without gaps, overlap or duplicates."
+      },
+      "direction_definition_url": "https://www.neso.energy/document/348106/download",
+      "verified_direction_meaning": "Demand reduction",
+      "internal_scenario_id": "BF-SCENARIO-20251106-ae30cf8298",
+      "internal_id_notice": "Internal BatteryFlex scenario ID; not an official NESO Event ID",
+      "winter_season": "2025/26",
+      "source_records_sha256": "6f6c3d4952818d4ea512977f6129c0fedb6e3396c108f9f4344d49bb7322bdf7",
+      "verified_interval_count": 2,
+      "selection_reason": "Whole 1h Live demand-reduction requirement; winter month/year/season and evening diversity, subject to source-ID limitations."
+    },
+    {
+      "event_id": null,
+      "delivery_date": "2023-12-01",
+      "start_time": "16:30:00",
+      "end_time": "18:00:00",
+      "duration_minutes": 90.0,
+      "time_basis": "GMT (source metadata)",
+      "required_mw_by_window": "550.0",
+      "direction": null,
+      "requirement_type": "Live",
+      "event_tag": null,
+      "dispatch_type": "All Providers",
+      "eligible_participants": "OCTOPUS ENERGY LIMITED,FLEXITRICITY LIMITED,ORANGE POWER LTD,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED,GRIDIMP LTD,E.ON NEXT ENERGY LIMITED,EQUIWATT LIMITED,ZENOBE ENERGY LIMITED,PERSE TECHNOLOGY LIMITED,CUB (UK) LTD,CONRAD ENERGY (TRADING) LIMITED,GRIDBEYOND LIMITED,SOLO ENERGY LIMITED,BRITISH GAS TRADING LIMITED,ENGIE POWER LIMITED,EDF ENERGY CUSTOMERS LIMITED,OVO ELECTRICITY LTD,HILDEBRAND TECHNOLOGY LIMITED,UTILITA ENERGY LIMITED,CHAMELEON TECHNOLOGY (UK) LIMITED,RDT Support Team,INFINIS LIMITED,AXLE ENERGY LIMITED,P3P ENERGY SUPPLY LIMITED,SSE DIGITAL SERVICES LIMITED,CARBONLACES LIMITED,ENERGY DELIVERED LTD",
+      "zonal_cap": null,
+      "source_name": "DFS Service Requirements (2023/2024)",
+      "resource_id": "7914dd99-fe1c-41ba-9989-5784531c58bb",
+      "source_record_ids": [
+        24,
+        25,
+        26
+      ],
+      "window_count": 3,
+      "contiguous_30min": true,
+      "candidate_status": "Provisional candidate",
+      "screening_reason": "Requires review: missing ID/direction, non-Live, invalid/gapped windows, mixed time basis or non-positive requirement.",
+      "demand_reduction": true,
+      "direction_evidence": "Documented pre-9-Apr-2026 demand-reduction-only DFS regime; raw direction absent",
+      "direction_evidence_url": "https://www.neso.energy/industry-information/balancing-services/demand-flexibility-service-dfs",
+      "identity_basis": "Source/date requirement group; original event ID absent (not a confirmed event key)",
+      "start_uk": "2023-12-01T16:30:00+00:00",
+      "end_uk": "2023-12-01T18:00:00+00:00",
+      "start_utc": "2023-12-01T16:30:00+00:00",
+      "end_utc": "2023-12-01T18:00:00+00:00",
+      "interval_error": null,
+      "validation_status": "PASS",
+      "validation_criteria": {
+        "live": "PASS",
+        "direction": "PASS",
+        "historical_date": "PASS",
+        "original_records": "PASS",
+        "source_resource": "PASS",
+        "complete_retrieval": "PASS",
+        "requirement_mw": "PASS",
+        "valid_times": "PASS",
+        "continuous_window": "PASS"
+      },
+      "validation_reasons": {
+        "live": "Every original Service Requirement Type must explicitly equal Live.",
+        "direction": "Winter 2023/24 participation guidance: service delivery is demand reduction; raw direction absent.",
+        "historical_date": "One valid past original delivery date.",
+        "original_records": "Resource-scoped CKAN IDs trace every original interval record.",
+        "source_resource": "Known official requirement resource and exact public API request URLs.",
+        "complete_retrieval": "Complete source prevents accepting a truncated event.",
+        "requirement_mw": "Every original source requirement is finite, positive MW.",
+        "valid_times": "Source clocks resolve to positive aware instants with GMT/BST checks.",
+        "continuous_window": "Consecutive windows without gaps, overlap or duplicates."
+      },
+      "direction_definition_url": "https://www.neso.energy/document/286981/download",
+      "verified_direction_meaning": "Demand reduction",
+      "internal_scenario_id": "BF-SCENARIO-20231201-11bed40350",
+      "internal_id_notice": "Internal BatteryFlex scenario ID; not an official NESO Event ID",
+      "winter_season": "2023/24",
+      "source_records_sha256": "2e6f4e645e226cea6c7b587bf2e66a998a8795df4a05d756798e392ae805af13",
+      "verified_interval_count": 3,
+      "selection_reason": "Whole 1.5h Live demand-reduction requirement; winter month/year/season and evening diversity, subject to source-ID limitations."
+    },
+    {
+      "event_id": null,
+      "delivery_date": "2026-01-11",
+      "start_time": "17:00",
+      "end_time": "19:00",
+      "duration_minutes": 120.0,
+      "time_basis": "GMT (source metadata)",
+      "required_mw_by_window": "500.0",
+      "direction": null,
+      "requirement_type": "Live",
+      "event_tag": null,
+      "dispatch_type": "All Providers",
+      "eligible_participants": "ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED,SSE DIGITAL SERVICES LIMITED,AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,ORANGE POWER LTD,Attune Power LTD,AFFECT ENERGY LTD,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,Electryone AI,OAKTREE POWER LIMITED,BRITISH GAS TRADING LIMITED,CARBONLACES LIMITED,VEST Energy Limited,PowerOnTechnologiesTradingAsJoulen,Fuse Energy Supply Limited,Shuffle Energy Limited,Optimo Energy Limited,U ENERGY GROUP LIMITED",
+      "zonal_cap": null,
+      "source_name": "DFS Service Requirement (Archive 2025/2026)",
+      "resource_id": "f5605e2b-b677-424c-8df7-d0ce4ee03cef",
+      "source_record_ids": [
+        125,
+        126,
+        127,
+        128
+      ],
+      "window_count": 4,
+      "contiguous_30min": true,
+      "candidate_status": "Provisional candidate",
+      "screening_reason": "Requires review: missing ID/direction, non-Live, invalid/gapped windows, mixed time basis or non-positive requirement.",
+      "demand_reduction": true,
+      "direction_evidence": "Documented pre-9-Apr-2026 demand-reduction-only DFS regime; raw direction absent",
+      "direction_evidence_url": "https://www.neso.energy/industry-information/balancing-services/demand-flexibility-service-dfs",
+      "identity_basis": "Source/date requirement group; original event ID absent (not a confirmed event key)",
+      "start_uk": "2026-01-11T17:00:00+00:00",
+      "end_uk": "2026-01-11T19:00:00+00:00",
+      "start_utc": "2026-01-11T17:00:00+00:00",
+      "end_utc": "2026-01-11T19:00:00+00:00",
+      "interval_error": null,
+      "validation_status": "PASS",
+      "validation_criteria": {
+        "live": "PASS",
+        "direction": "PASS",
+        "historical_date": "PASS",
+        "original_records": "PASS",
+        "source_resource": "PASS",
+        "complete_retrieval": "PASS",
+        "requirement_mw": "PASS",
+        "valid_times": "PASS",
+        "continuous_window": "PASS"
+      },
+      "validation_reasons": {
+        "live": "Every original Service Requirement Type must explicitly equal Live.",
+        "direction": "DFS Service Terms v3, clause 5.2: demand below operational baseline; raw direction absent.",
+        "historical_date": "One valid past original delivery date.",
+        "original_records": "Resource-scoped CKAN IDs trace every original interval record.",
+        "source_resource": "Known official requirement resource and exact public API request URLs.",
+        "complete_retrieval": "Complete source prevents accepting a truncated event.",
+        "requirement_mw": "Every original source requirement is finite, positive MW.",
+        "valid_times": "Source clocks resolve to positive aware instants with GMT/BST checks.",
+        "continuous_window": "Consecutive windows without gaps, overlap or duplicates."
+      },
+      "direction_definition_url": "https://www.neso.energy/document/348106/download",
+      "verified_direction_meaning": "Demand reduction",
+      "internal_scenario_id": "BF-SCENARIO-20260111-928f24c1e7",
+      "internal_id_notice": "Internal BatteryFlex scenario ID; not an official NESO Event ID",
+      "winter_season": "2025/26",
+      "source_records_sha256": "f975ae16c8629e16340564459d18a7e354611ff83d179f3a916e091ead9ff0ea",
+      "verified_interval_count": 4,
+      "selection_reason": "Whole 2h Live demand-reduction requirement; winter month/year/season and evening diversity, subject to source-ID limitations."
+    },
+    {
+      "event_id": null,
+      "delivery_date": "2025-02-02",
+      "start_time": "16:00",
+      "end_time": "19:00",
+      "duration_minutes": 180.0,
+      "time_basis": "GMT (source metadata)",
+      "required_mw_by_window": "500.0",
+      "direction": null,
+      "requirement_type": "Live",
+      "event_tag": null,
+      "dispatch_type": "All Providers",
+      "eligible_participants": "CUB (UK) LTD,ENGIE POWER LIMITED,AXLE ENERGY LIMITED,GALLAGHER AGGREGATES LIMITED,AMP (via Urban Reserve (AssetCo 2) Limited),UTILITA ENERGY LIMITED,GRIDIMP LTD,PERSE TECHNOLOGY LIMITED, AMP (via Urban Reserve (AssetCo) Limited),INFINIS LIMITED,EQUIWATT LIMITED,HILDEBRAND TECHNOLOGY LIMITED,GRIDBEYOND LIMITED,OCTOPUS ENERGY LIMITED,DRAX ENERGY SOLUTIONS LIMITED,OAKTREE POWER LIMITED",
+      "zonal_cap": null,
+      "source_name": "DFS Service Requirement (Archive 2025/2026)",
+      "resource_id": "f5605e2b-b677-424c-8df7-d0ce4ee03cef",
+      "source_record_ids": [
+        999,
+        1000,
+        1001,
+        1002,
+        1003,
+        1004
+      ],
+      "window_count": 6,
+      "contiguous_30min": true,
+      "candidate_status": "Provisional candidate",
+      "screening_reason": "Requires review: missing ID/direction, non-Live, invalid/gapped windows, mixed time basis or non-positive requirement.",
+      "demand_reduction": true,
+      "direction_evidence": "Documented pre-9-Apr-2026 demand-reduction-only DFS regime; raw direction absent",
+      "direction_evidence_url": "https://www.neso.energy/industry-information/balancing-services/demand-flexibility-service-dfs",
+      "identity_basis": "Source/date requirement group; original event ID absent (not a confirmed event key)",
+      "start_uk": "2025-02-02T16:00:00+00:00",
+      "end_uk": "2025-02-02T19:00:00+00:00",
+      "start_utc": "2025-02-02T16:00:00+00:00",
+      "end_utc": "2025-02-02T19:00:00+00:00",
+      "interval_error": null,
+      "validation_status": "PASS",
+      "validation_criteria": {
+        "live": "PASS",
+        "direction": "PASS",
+        "historical_date": "PASS",
+        "original_records": "PASS",
+        "source_resource": "PASS",
+        "complete_retrieval": "PASS",
+        "requirement_mw": "PASS",
+        "valid_times": "PASS",
+        "continuous_window": "PASS"
+      },
+      "validation_reasons": {
+        "live": "Every original Service Requirement Type must explicitly equal Live.",
+        "direction": "DFS Service Terms v3, clause 5.2: demand below operational baseline; raw direction absent.",
+        "historical_date": "One valid past original delivery date.",
+        "original_records": "Resource-scoped CKAN IDs trace every original interval record.",
+        "source_resource": "Known official requirement resource and exact public API request URLs.",
+        "complete_retrieval": "Complete source prevents accepting a truncated event.",
+        "requirement_mw": "Every original source requirement is finite, positive MW.",
+        "valid_times": "Source clocks resolve to positive aware instants with GMT/BST checks.",
+        "continuous_window": "Consecutive windows without gaps, overlap or duplicates."
+      },
+      "direction_definition_url": "https://www.neso.energy/document/348106/download",
+      "verified_direction_meaning": "Demand reduction",
+      "internal_scenario_id": "BF-SCENARIO-20250202-5bc3052ad5",
+      "internal_id_notice": "Internal BatteryFlex scenario ID; not an official NESO Event ID",
+      "winter_season": "2024/25",
+      "source_records_sha256": "5e1a01dee15bc7de0b3b70565d4ff405c521edb8c70bbe2724834ccad61a4070",
+      "verified_interval_count": 6,
+      "selection_reason": "Whole 3h Live demand-reduction requirement; winter month/year/season and evening diversity, subject to source-ID limitations."
+    }
+  ]
+}
